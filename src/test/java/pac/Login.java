@@ -10,7 +10,8 @@ public class Login
 	@Test
 	public void login2() 
 	{
-		System.setProperty("webdriver.chrome.driver", "../Selenium/src/test/resources/chromedriver.exe");
+		String DirPath = System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver", DirPath+"/src/test/resources/chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 	
 		

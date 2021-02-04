@@ -8,6 +8,11 @@
           <include name="login1"/>
         </methods>
       </class> <!-- pac.HomePage -->
+      <class name="pac.Login">
+        <methods>
+          <include name="login2"/>
+        </methods>
+      </class> <!-- pac.Login -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
