@@ -17,7 +17,7 @@ public class HomePage
 		driver.get("https://www.redbus.in/");
 		driver.manage().window().maximize();
 		String title =driver.getTitle();
-		Assert.assertEquals("Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus Indi", title);
+		Assert.assertEquals("Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India", title);
 		
 	}
 	
